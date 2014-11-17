@@ -8,7 +8,7 @@ using namespace std;
 
      cout<<x;
 
-     if(!(x == n)){
+     if(x <=  n){
         x++;
         addAll(n,x);
      }
